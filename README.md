@@ -1,6 +1,10 @@
 # AlphaFold unmasked <br><sup>to integrate experiments and predictions</sup>
 
 ![H1111](fig/header.png)
+## To do
+- [x] Run prepare templates.py: [more info](examples/readme.md)
+- [ ] Set up an enviroment the can there version of AlphaFold on the cluster [more info](enviroment_information.md)
+- [ ] Run AF unmasked on the cluster, and explore capabilities
 
 ## On Google Colab
 

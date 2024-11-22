@@ -9,8 +9,8 @@
 #SBATCH --nodes=1                                                                 # no. of nodes to use
 #SBATCH --output=%x.%j.out                                                        # File to redirect the standard output (jobname.jobID.out)
 
-FASTAFILE="/projects/ilfgrid/apps/AF_unmasked_test/AF_unmasked/examples/2VB1/2VB1.fasta"
-AF_unmasked_dir="/projects/ilfgrid/apps/AF_unmasked_test"
+FASTAFILE="/projects/ilfgrid/apps/AF_unmasked/examples/2VB1/2VB1.fasta"
+AF_unmasked_dir="/projects/ilfgrid/apps/AF_unmasked"
 OUTDIR="$AF_unmasked_dir/AF_unmasked/examples" #could this be a folder
 TEMPLATE="$OUTDIR/2VB1/template_data/2VB1_template.cif"
 
@@ -23,5 +23,5 @@ conda activate $AF_unmasked_dir/miniconda3/envs/AF2.3.1_cuda11.8_conda_env
 #packages=`conda list`
 #echo $packages 
 
-cd $AF_unmasked_dir && python AF_unmasked/prepare_templates.py --target $FASTAFILE --template $TEMPLATE --output_dir $OUTDIR --align
+cd $AF_unmasked_dir && python prepare_templates.py --target $FASTAFILE --template $TEMPLATE --output_dir $OUTDIR --align
 
