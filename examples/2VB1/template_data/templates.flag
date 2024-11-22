@@ -1,0 +1,4 @@
+--cross_chain_templates
+--template_mmcif_dir=/maps/projects/ilfgrid/apps/AF_unmasked_test/AF_unmasked/examples/2VB1/template_data/mmcif_files
+--pdb_seqres_database_path=/maps/projects/ilfgrid/apps/AF_unmasked_test/AF_unmasked/examples/2VB1/template_data/pdb_seqres_A.txt
+--use_precomputed_msas
