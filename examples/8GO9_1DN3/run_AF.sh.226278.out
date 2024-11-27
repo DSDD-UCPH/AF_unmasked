@@ -1,0 +1,123 @@
+2024-11-26 21:24:39.037438: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-11-26 21:24:39.038006: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-11-26 21:24:39.038026: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2024-11-26 21:24:45.081489: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot open shared object file: No such file or directory
+2024-11-26 21:24:45.081760: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: cannot open shared object file: No such file or directory
+2024-11-26 21:24:45.147882: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: cannot open shared object file: No such file or directory
+2024-11-26 21:24:45.148127: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open shared object file: No such file or directory
+2024-11-26 21:24:45.148139: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+I1126 21:24:45.157761 139802757748544 templates.py:857] Using precomputed obsolete pdbs /projects/ilfgrid/data/alphafold-genetic-databases/pdb_mmcif/obsolete.dat.
+I1126 21:24:45.387634 139802757748544 run_alphafold.py:448] Turning cross-chain templates ON
+I1126 21:24:45.387805 139802757748544 run_alphafold.py:459] Setting max_recycles to 3
+I1126 21:24:45.387871 139802757748544 run_alphafold.py:460] Setting early stop tolerance to 0.5
+I1126 21:24:45.387923 139802757748544 run_alphafold.py:461] Setting dropout to True
+I1126 21:24:48.525686 139802757748544 xla_bridge.py:353] Unable to initialize backend 'tpu_driver': NOT_FOUND: Unable to find driver in registry given worker: 
+I1126 21:24:48.639884 139802757748544 xla_bridge.py:353] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter Host CUDA
+I1126 21:24:48.640346 139802757748544 xla_bridge.py:353] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I1126 21:24:48.640414 139802757748544 xla_bridge.py:353] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+I1126 21:24:49.581295 139802757748544 run_alphafold.py:448] Turning cross-chain templates ON
+I1126 21:24:49.581475 139802757748544 run_alphafold.py:459] Setting max_recycles to 3
+I1126 21:24:49.581531 139802757748544 run_alphafold.py:460] Setting early stop tolerance to 0.5
+I1126 21:24:49.581565 139802757748544 run_alphafold.py:461] Setting dropout to True
+I1126 21:24:52.697547 139802757748544 run_alphafold.py:448] Turning cross-chain templates ON
+I1126 21:24:52.697715 139802757748544 run_alphafold.py:459] Setting max_recycles to 3
+I1126 21:24:52.697761 139802757748544 run_alphafold.py:460] Setting early stop tolerance to 0.5
+I1126 21:24:52.697794 139802757748544 run_alphafold.py:461] Setting dropout to True
+I1126 21:24:54.629306 139802757748544 run_alphafold.py:448] Turning cross-chain templates ON
+I1126 21:24:54.629471 139802757748544 run_alphafold.py:459] Setting max_recycles to 3
+I1126 21:24:54.629517 139802757748544 run_alphafold.py:460] Setting early stop tolerance to 0.5
+I1126 21:24:54.629550 139802757748544 run_alphafold.py:461] Setting dropout to True
+I1126 21:24:56.730049 139802757748544 run_alphafold.py:448] Turning cross-chain templates ON
+I1126 21:24:56.730220 139802757748544 run_alphafold.py:459] Setting max_recycles to 3
+I1126 21:24:56.730266 139802757748544 run_alphafold.py:460] Setting early stop tolerance to 0.5
+I1126 21:24:56.730299 139802757748544 run_alphafold.py:461] Setting dropout to True
+I1126 21:24:58.720487 139802757748544 run_alphafold.py:468] Have 25 models: ['model_1_multimer_v2_pred_1', 'model_1_multimer_v2_pred_2', 'model_1_multimer_v2_pred_3', 'model_1_multimer_v2_pred_4', 'model_1_multimer_v2_pred_5', 'model_2_multimer_v2_pred_1', 'model_2_multimer_v2_pred_2', 'model_2_multimer_v2_pred_3', 'model_2_multimer_v2_pred_4', 'model_2_multimer_v2_pred_5', 'model_3_multimer_v2_pred_1', 'model_3_multimer_v2_pred_2', 'model_3_multimer_v2_pred_3', 'model_3_multimer_v2_pred_4', 'model_3_multimer_v2_pred_5', 'model_4_multimer_v2_pred_1', 'model_4_multimer_v2_pred_2', 'model_4_multimer_v2_pred_3', 'model_4_multimer_v2_pred_4', 'model_4_multimer_v2_pred_5', 'model_5_multimer_v2_pred_1', 'model_5_multimer_v2_pred_2', 'model_5_multimer_v2_pred_3', 'model_5_multimer_v2_pred_4', 'model_5_multimer_v2_pred_5']
+I1126 21:24:58.720657 139802757748544 run_alphafold.py:482] Using random seed 227711787699821932 for the data pipeline
+I1126 21:24:58.720910 139802757748544 run_alphafold.py:200] Predicting 1DN3
+I1126 21:24:58.735301 139802757748544 pipeline_multimer.py:212] Running monomer pipeline on chain A: sp|P02776|PLF4_HUMAN Platelet factor 4 OS=Homo sapiens OX=9606 GN=PF4 PE=1 SV=2
+I1126 21:24:58.736341 139802757748544 jackhmmer.py:133] Launching subprocess "/projects/ilfgrid/apps/AF_unmasked/AF2.3.1_unmasked/bin/jackhmmer -o /dev/null -A /tmp/tmpd3rb843f/output.sto --noali --F1 0.0005 --F2 5e-05 --F3 5e-07 --incE 0.0001 -E 0.0001 --cpu 8 -N 1 /tmp/tmps830pr10.fasta /projects/ilfgrid/data/alphafold-genetic-databases/uniref90/uniref90.fasta"
+I1126 21:24:58.810883 139802757748544 utils.py:36] Started Jackhmmer (uniref90.fasta) query
+I1126 21:30:36.422246 139802757748544 utils.py:40] Finished Jackhmmer (uniref90.fasta) query in 337.611 seconds
+I1126 21:30:36.460635 139802757748544 jackhmmer.py:133] Launching subprocess "/projects/ilfgrid/apps/AF_unmasked/AF2.3.1_unmasked/bin/jackhmmer -o /dev/null -A /tmp/tmpte8uyxzi/output.sto --noali --F1 0.0005 --F2 5e-05 --F3 5e-07 --incE 0.0001 -E 0.0001 --cpu 8 -N 1 /tmp/tmps830pr10.fasta /projects/ilfgrid/data/alphafold-genetic-databases/mgnify/mgy_clusters_2022_05.fa"
+I1126 21:30:36.531373 139802757748544 utils.py:36] Started Jackhmmer (mgy_clusters_2022_05.fa) query
+I1126 21:39:47.006438 139802757748544 utils.py:40] Finished Jackhmmer (mgy_clusters_2022_05.fa) query in 550.474 seconds
+I1126 21:39:47.169645 139802757748544 jackhmmer.py:133] Launching subprocess "/projects/ilfgrid/apps/AF_unmasked/AF2.3.1_unmasked/bin/jackhmmer -o /dev/null -A /tmp/tmpeeeak2zr/output.sto --noali --F1 0.0005 --F2 5e-05 --F3 5e-07 --incE 0.0001 -E 0.0001 --cpu 8 -N 1 /tmp/tmps830pr10.fasta /projects/ilfgrid/data/alphafold-genetic-databases/small_bfd/bfd-first_non_consensus_sequences.fasta"
+I1126 21:39:47.238493 139802757748544 utils.py:36] Started Jackhmmer (bfd-first_non_consensus_sequences.fasta) query
+I1126 21:40:55.704802 139802757748544 utils.py:40] Finished Jackhmmer (bfd-first_non_consensus_sequences.fasta) query in 68.466 seconds
+I1126 21:40:55.716867 139802757748544 templates.py:940] Searching for multimer template for: MSSAAGFCASRPGLLFLGLLLLPLVVAFASAEAEEDGDLQCLCVKTTSQVRPRHITSLEVIKAGPHCPTAQLIATLKNGRKICLDLQAPLYKKIIKKLLES
+W1126 21:40:55.732944 139802757748544 templates.py:547] The exact sequence MAAGFCASRPGLLFLGLLLLPLVVAFASAEAEEDGDLQCLCVKTTSQVRPRHITSLEVIKAGPHCPTAQLIATLKNGRKICLDLQAPLYKKIIKKLLES was not found in 0001_A. Realigning the template to the actual sequence.
+I1126 21:40:55.733050 139802757748544 kalign.py:66] Aligning 2 sequences
+I1126 21:40:55.733278 139802757748544 kalign.py:87] Launching subprocess "/projects/ilfgrid/apps/AF_unmasked/AF2.3.1_unmasked/bin/kalign -i /tmp/tmpjgh6qmxr/input.fasta -o /tmp/tmpjgh6qmxr/output.a3m -format fasta"
+I1126 21:40:55.805530 139802757748544 utils.py:36] Started Kalign query
+I1126 21:40:55.806668 139802757748544 kalign.py:94] Kalign stdout:
+
+
+stderr:
+
+Kalign version 2.04, Copyright (C) 2004, 2005, 2006 Timo Lassmann
+
+        Kalign is free software. You can redistribute it and/or modify
+        it under the terms of the GNU General Public License as
+        published by the Free Software Foundation.
+
+reading from STDIN: found 0 sequences
+reading from /tmp/tmpjgh6qmxr/input.fasta: found 2 sequences
+Aligning 2 protein sequences with these parameters:
+        54.94940948	gap open penalty
+        8.52492046	gap extension
+        4.42409992	terminal gap penalty
+        0.20000000	bonus
+Alignment will be written to file:'/tmp/tmpjgh6qmxr/output.a3m'.
+
+Distance Calculation:
+     100 percent done
+Alignment:
+       0 percent done     100 percent done
+
+
+I1126 21:40:55.806851 139802757748544 utils.py:40] Finished Kalign query in 0.001 seconds
+I1126 21:40:55.807819 139802757748544 templates.py:370] Old aligned template: MAAGFCASRPGLLFLGLLLLPLVVAFASAEAEEDGDLQCLCVKTTSQVRPRHITSLEVIKAGPHCPTAQLIATLKNGRKICLDLQAPLYKKIIKKLLES
+New aligned template: ------------------------------------------------------------------------------------QAPAYKKAAKKLAES
+Traceback (most recent call last):
+  File "/maps/projects/ilfgrid/apps/AF_unmasked/alphafold/data/templates.py", line 536, in _extract_template_features
+    seqres, chain_id, mapping_offset = _find_template_in_pdb(
+  File "/maps/projects/ilfgrid/apps/AF_unmasked/alphafold/data/templates.py", line 291, in _find_template_in_pdb
+    raise SequenceNotInTemplateError(
+alphafold.data.templates.SequenceNotInTemplateError: Could not find the template sequence in 0001_A. Template sequence: MAAGFCASRPGLLFLGLLLLPLVVAFASAEAEEDGDLQCLCVKTTSQVRPRHITSLEVIKAGPHCPTAQLIATLKNGRKICLDLQAPLYKKIIKKLLES, chain_to_seqres: {'A': 'QAPAYKKAAKKLAES'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/maps/projects/ilfgrid/apps/AF_unmasked/alphafold/data/templates.py", line 755, in _process_single_hit
+    features, realign_warning = _extract_template_features(
+  File "/maps/projects/ilfgrid/apps/AF_unmasked/alphafold/data/templates.py", line 549, in _extract_template_features
+    seqres, mapping = _realign_pdb_template_to_query(
+  File "/maps/projects/ilfgrid/apps/AF_unmasked/alphafold/data/templates.py", line 391, in _realign_pdb_template_to_query
+    raise QueryToTemplateAlignError(
+alphafold.data.templates.QueryToTemplateAlignError: Insufficient similarity of the sequence in the database: MAAGFCASRPGLLFLGLLLLPLVVAFASAEAEEDGDLQCLCVKTTSQVRPRHITSLEVIKAGPHCPTAQLIATLKNGRKICLDLQAPLYKKIIKKLLES to the actual sequence in the mmCIF file 0001_A: QAPAYKKAAKKLAES. We require at least 90 % similarity wrt to the shorter of the sequences. This is not a problem unless you think this is a template that should be included.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "run_alphafold.py", line 512, in <module>
+    app.run(main)
+  File "/projects/ilfgrid/apps/AF_unmasked/AF2.3.1_unmasked/lib/python3.8/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/projects/ilfgrid/apps/AF_unmasked/AF2.3.1_unmasked/lib/python3.8/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "run_alphafold.py", line 487, in main
+    predict_structure(
+  File "run_alphafold.py", line 211, in predict_structure
+    feature_dict = data_pipeline.process(
+  File "/maps/projects/ilfgrid/apps/AF_unmasked/alphafold/data/pipeline_multimer.py", line 268, in process
+    chain_features = self._process_single_chain(
+  File "/maps/projects/ilfgrid/apps/AF_unmasked/alphafold/data/pipeline_multimer.py", line 214, in _process_single_chain
+    chain_features = self._monomer_data_pipeline.process(
+  File "/maps/projects/ilfgrid/apps/AF_unmasked/alphafold/data/pipeline.py", line 234, in process
+    templates_result = self.template_featurizer.get_templates(
+  File "/maps/projects/ilfgrid/apps/AF_unmasked/alphafold/data/templates.py", line 960, in get_templates
+    result = _process_single_hit(
+  File "/maps/projects/ilfgrid/apps/AF_unmasked/alphafold/data/templates.py", line 786, in _process_single_hit
+    error = ('%s_%s (sum_probs: %.2f, rank: %d): feature extracting errors: '
+TypeError: must be real number, not NoneType

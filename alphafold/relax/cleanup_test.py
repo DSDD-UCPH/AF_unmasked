@@ -17,7 +17,9 @@ import io
 
 from absl.testing import absltest
 from alphafold.relax import cleanup
-from simtk.openmm.app.internal import pdbstructure
+
+from openmm.app.internal import pdbstructure
+#from simtk.openmm.app.internal import pdbstructure
 
 
 def _pdb_to_structure(pdb_str):

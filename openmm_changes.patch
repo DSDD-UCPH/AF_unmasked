@@ -1,0 +1,57 @@
+diff --git a/alphafold/relax/amber_minimize.py b/alphafold/relax/amber_minimize.py
+index e21a0dc..950da4d 100644
+--- a/alphafold/relax/amber_minimize.py
++++ b/alphafold/relax/amber_minimize.py
+@@ -27,10 +27,14 @@ from alphafold.relax import utils
+ import ml_collections
+ import numpy as np
+ import jax
+-from simtk import openmm
+-from simtk import unit
+-from simtk.openmm import app as openmm_app
+-from simtk.openmm.app.internal.pdbstructure import PdbStructure
++#from simtk import openmm
++import openmm
++#from simtk import unit
++from openmm import unit
++#from simtk.openmm import app as openmm_app
++from openmm import app as openmm_app
++#from simtk.openmm.app.internal.pdbstructure import PdbStructure
++from openmm.app.internal.pdbstructure import PdbStructure
+ 
+ 
+ ENERGY = unit.kilocalories_per_mole
+diff --git a/alphafold/relax/cleanup.py b/alphafold/relax/cleanup.py
+index 4bdd449..acda8fe 100644
+--- a/alphafold/relax/cleanup.py
++++ b/alphafold/relax/cleanup.py
+@@ -20,8 +20,12 @@ cases like removing chains of length one (see clean_structure).
+ import io
+ 
+ import pdbfixer
+-from simtk.openmm import app
+-from simtk.openmm.app import element
++
++from openmm import app
++#from simtk.openmm import app
++
++from openmm.app import element
++#from simtk.openmm.app import element
+ 
+ 
+ def fix_pdb(pdbfile, alterations_info):
+diff --git a/alphafold/relax/cleanup_test.py b/alphafold/relax/cleanup_test.py
+index 7061b29..4047963 100644
+--- a/alphafold/relax/cleanup_test.py
++++ b/alphafold/relax/cleanup_test.py
+@@ -17,7 +17,9 @@ import io
+ 
+ from absl.testing import absltest
+ from alphafold.relax import cleanup
+-from simtk.openmm.app.internal import pdbstructure
++
++from openmm.app.internal import pdbstructure
++#from simtk.openmm.app.internal import pdbstructure
+ 
+ 
+ def _pdb_to_structure(pdb_str):

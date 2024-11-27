@@ -1,0 +1,70 @@
+2024-11-22 16:20:23.758729: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-11-22 16:20:23.759296: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-11-22 16:20:23.759315: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2024-11-22 16:20:30.216392: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot open shared object file: No such file or directory
+2024-11-22 16:20:30.216763: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: cannot open shared object file: No such file or directory
+2024-11-22 16:20:30.501443: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: cannot open shared object file: No such file or directory
+2024-11-22 16:20:30.501872: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open shared object file: No such file or directory
+2024-11-22 16:20:30.501913: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+I1122 16:20:30.518245 140502369601344 templates.py:857] Using precomputed obsolete pdbs /projects/ilfgrid/data/alphafold-genetic-databases/pdb_mmcif/obsolete.dat.
+I1122 16:20:30.547626 140502369601344 run_alphafold.py:448] Turning cross-chain templates ON
+I1122 16:20:30.547776 140502369601344 run_alphafold.py:459] Setting max_recycles to 3
+I1122 16:20:30.547838 140502369601344 run_alphafold.py:460] Setting early stop tolerance to 0.5
+I1122 16:20:30.547889 140502369601344 run_alphafold.py:461] Setting dropout to True
+I1122 16:20:37.588265 140502369601344 xla_bridge.py:353] Unable to initialize backend 'tpu_driver': NOT_FOUND: Unable to find driver in registry given worker: 
+I1122 16:20:38.019419 140502369601344 xla_bridge.py:353] Unable to initialize backend 'rocm': NOT_FOUND: Could not find registered platform with name: "rocm". Available platform names are: Interpreter Host CUDA
+I1122 16:20:38.019943 140502369601344 xla_bridge.py:353] Unable to initialize backend 'tpu': module 'jaxlib.xla_extension' has no attribute 'get_tpu_client'
+I1122 16:20:38.020031 140502369601344 xla_bridge.py:353] Unable to initialize backend 'plugin': xla_extension has no attributes named get_plugin_device_client. Compile TensorFlow with //tensorflow/compiler/xla/python:enable_plugin_device set to true (defaults to false) to enable this.
+I1122 16:20:40.238586 140502369601344 run_alphafold.py:448] Turning cross-chain templates ON
+I1122 16:20:40.239180 140502369601344 run_alphafold.py:459] Setting max_recycles to 3
+I1122 16:20:40.239796 140502369601344 run_alphafold.py:460] Setting early stop tolerance to 0.5
+I1122 16:20:40.239872 140502369601344 run_alphafold.py:461] Setting dropout to True
+I1122 16:20:44.644264 140502369601344 run_alphafold.py:448] Turning cross-chain templates ON
+I1122 16:20:44.644581 140502369601344 run_alphafold.py:459] Setting max_recycles to 3
+I1122 16:20:44.644864 140502369601344 run_alphafold.py:460] Setting early stop tolerance to 0.5
+I1122 16:20:44.644927 140502369601344 run_alphafold.py:461] Setting dropout to True
+I1122 16:20:46.872376 140502369601344 run_alphafold.py:448] Turning cross-chain templates ON
+I1122 16:20:46.872594 140502369601344 run_alphafold.py:459] Setting max_recycles to 3
+I1122 16:20:46.872666 140502369601344 run_alphafold.py:460] Setting early stop tolerance to 0.5
+I1122 16:20:46.872719 140502369601344 run_alphafold.py:461] Setting dropout to True
+I1122 16:20:49.390462 140502369601344 run_alphafold.py:448] Turning cross-chain templates ON
+I1122 16:20:49.390681 140502369601344 run_alphafold.py:459] Setting max_recycles to 3
+I1122 16:20:49.390753 140502369601344 run_alphafold.py:460] Setting early stop tolerance to 0.5
+I1122 16:20:49.390818 140502369601344 run_alphafold.py:461] Setting dropout to True
+I1122 16:20:52.407273 140502369601344 run_alphafold.py:468] Have 25 models: ['model_1_multimer_v2_pred_1', 'model_1_multimer_v2_pred_2', 'model_1_multimer_v2_pred_3', 'model_1_multimer_v2_pred_4', 'model_1_multimer_v2_pred_5', 'model_2_multimer_v2_pred_1', 'model_2_multimer_v2_pred_2', 'model_2_multimer_v2_pred_3', 'model_2_multimer_v2_pred_4', 'model_2_multimer_v2_pred_5', 'model_3_multimer_v2_pred_1', 'model_3_multimer_v2_pred_2', 'model_3_multimer_v2_pred_3', 'model_3_multimer_v2_pred_4', 'model_3_multimer_v2_pred_5', 'model_4_multimer_v2_pred_1', 'model_4_multimer_v2_pred_2', 'model_4_multimer_v2_pred_3', 'model_4_multimer_v2_pred_4', 'model_4_multimer_v2_pred_5', 'model_5_multimer_v2_pred_1', 'model_5_multimer_v2_pred_2', 'model_5_multimer_v2_pred_3', 'model_5_multimer_v2_pred_4', 'model_5_multimer_v2_pred_5']
+I1122 16:20:52.407890 140502369601344 run_alphafold.py:482] Using random seed 113708457994357007 for the data pipeline
+I1122 16:20:52.408309 140502369601344 run_alphafold.py:200] Predicting 2VB1
+I1122 16:20:52.419002 140502369601344 pipeline_multimer.py:212] Running monomer pipeline on chain A: 2VB1_1|Chain A|LYSOZYME C|GALLUS GALLUS (9031)
+W1122 16:20:52.420137 140502369601344 pipeline.py:100] Reading MSA from file /projects/ilfgrid/apps/AF_unmasked/examples/2VB1/msas/A/uniref90_hits.sto
+I1122 16:20:52.461106 140502369601344 jackhmmer.py:133] Launching subprocess "/projects/ilfgrid/apps/AF_unmasked/AF2.3.1_unmasked/bin/jackhmmer -o /dev/null -A /tmp/tmp51wbo43k/output.sto --noali --F1 0.0005 --F2 5e-05 --F3 5e-07 --incE 0.0001 -E 0.0001 --cpu 8 -N 1 /tmp/tmp51cjpgby.fasta /projects/ilfgrid/data/alphafold-genetic-databases/mgnify/mgy_clusters_2022_05.fa"
+Traceback (most recent call last):
+  File "run_alphafold.py", line 512, in <module>
+    app.run(main)
+  File "/projects/ilfgrid/apps/AF_unmasked/AF2.3.1_unmasked/lib/python3.8/site-packages/absl/app.py", line 308, in run
+    _run_main(main, args)
+  File "/projects/ilfgrid/apps/AF_unmasked/AF2.3.1_unmasked/lib/python3.8/site-packages/absl/app.py", line 254, in _run_main
+    sys.exit(main(argv))
+  File "run_alphafold.py", line 487, in main
+    predict_structure(
+  File "run_alphafold.py", line 211, in predict_structure
+    feature_dict = data_pipeline.process(
+  File "/maps/projects/ilfgrid/apps/AF_unmasked/alphafold/data/pipeline_multimer.py", line 268, in process
+    chain_features = self._process_single_chain(
+  File "/maps/projects/ilfgrid/apps/AF_unmasked/alphafold/data/pipeline_multimer.py", line 214, in _process_single_chain
+    chain_features = self._monomer_data_pipeline.process(
+  File "/maps/projects/ilfgrid/apps/AF_unmasked/alphafold/data/pipeline.py", line 176, in process
+    jackhmmer_mgnify_result = run_msa_tool(
+  File "/maps/projects/ilfgrid/apps/AF_unmasked/alphafold/data/pipeline.py", line 94, in run_msa_tool
+    result = msa_runner.query(input_fasta_path, max_sto_sequences)[0]  # pytype: disable=wrong-arg-count
+  File "/maps/projects/ilfgrid/apps/AF_unmasked/alphafold/data/tools/jackhmmer.py", line 170, in query
+    return self.query_multiple([input_fasta_path], max_sequences)[0]
+  File "/maps/projects/ilfgrid/apps/AF_unmasked/alphafold/data/tools/jackhmmer.py", line 181, in query_multiple
+    single_chunk_results.append([self._query_chunk(
+  File "/maps/projects/ilfgrid/apps/AF_unmasked/alphafold/data/tools/jackhmmer.py", line 134, in _query_chunk
+    process = subprocess.Popen(
+  File "/projects/ilfgrid/apps/AF_unmasked/AF2.3.1_unmasked/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/projects/ilfgrid/apps/AF_unmasked/AF2.3.1_unmasked/lib/python3.8/subprocess.py", line 1637, in _execute_child
+    self.pid = _posixsubprocess.fork_exec(
+OSError: [Errno 12] Cannot allocate memory
